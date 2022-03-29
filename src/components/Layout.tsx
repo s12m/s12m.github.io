@@ -1,28 +1,55 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import { ChevronDownIcon, BookOpenIcon } from '@heroicons/react/solid'
 
 const Layout: React.FC = ({ children }) => {
   return (
     <>
-      <header className='navbar bg-base-100 px-2'>
-        <div className='flex-1'>
-          <Link to='/'>
-            <StaticImage src='../images/icon.png' alt='株式会社スマートアルゴリズム' className='w-10' />
-          </Link>
-        </div>
-        <div className='flex-none'>
-          <ul className='menu menu-horizontal p-0'>
-            <li>
-              <Link to='/about/'>会社案内</Link>
-            </li>
-          </ul>
-        </div>
-      </header>
+      <Header />
       <main>
         {children}
       </main>
+      <Footer />
     </>
+  )
+}
+
+const Header = () => {
+  return (
+    <header className='navbar fixed bg-base-100 px-2'>
+      <div className='flex-1'>
+        <Link to='/'>
+          <StaticImage src='../images/logo/landscape.png' alt='株式会社スマートアルゴリズム' height={48} />
+        </Link>
+      </div>
+      <div className='flex-none'>
+        <ul className='menu menu-horizontal p-0'>
+          <li><Link to='/about/'>会社案内</Link></li>
+          <li>
+            <a>顧客インタビュー<ChevronDownIcon width={24} /></a>
+            <ul className='p-2 bg-base-100'>
+              <li><Link to="/interviews/vook/">株式会社Vook 様</Link></li>
+              <li><Link to="/interviews/buildit/">株式会社ビルディット 様</Link></li>
+              <li><Link to="/interviews/codeforeveryone/">NPO法人みんなのコード 様</Link></li>
+            </ul>
+          </li>
+          <li><Link to='/books/'>スマゴリ書籍部<BookOpenIcon width={24} /></Link></li>
+          <li><a href='mailto:contact@smartalgorithm.co.jp' className='bg-s12m-red text-s12m-gray font-bold'>お問い合わせ</a></li>
+        </ul>
+      </div>
+    </header>
+  )
+}
+
+const Footer = () => {
+  return (
+    <footer className='footer footer-center p-10 bg-base-200'>
+      <div>
+        <StaticImage src='../images/logo/cube.png' alt='株式会社スマートアルゴリズム' width={48} height={48} />
+        <p>&copy; Smart Algorithm Co., Ltd.</p>
+      </div>
+    </footer>
   )
 }
 

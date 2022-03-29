@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "daisyui": "^2.13.4",
     "gatsby": "^4.10.3",
     "gatsby-plugin-image": "^2.10.1",
