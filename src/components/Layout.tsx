@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import { ChevronDownIcon, BookOpenIcon } from '@heroicons/react/solid'
+import { ChevronDownIcon, BookOpenIcon } from '@heroicons/react/outline'
 
 const Layout: React.FC = ({ children }) => {
   return (
