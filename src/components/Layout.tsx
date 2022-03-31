@@ -31,7 +31,7 @@ const Header = () => {
             <ul className='p-2 bg-base-100'>
               <li><Link to="/interviews/vook/">株式会社Vook 様</Link></li>
               <li><Link to="/interviews/buildit/">株式会社ビルディット 様</Link></li>
-              <li><Link to="/interviews/codeforeveryone/">NPO法人みんなのコード 様</Link></li>
+              <li><Link to="/interviews/codeorjp/">NPO法人みんなのコード 様</Link></li>
             </ul>
           </li>
           <li><Link to='/books/'>スマゴリ書籍部<BookOpenIcon width={24} /></Link></li>

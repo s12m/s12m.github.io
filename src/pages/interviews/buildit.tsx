@@ -35,7 +35,7 @@ const Page = () => {
                 <InterviewAnswer interviewee='富田'>色々ありますが、まず組んでいただける幅が広く、こちらが実装仕様まで言及しなくても、むしろこちらが考えるよりもスマートで良い解決策を提案して構築するところまで、まとめて面倒を見てもらえるところがありがたいです。あとはアプリケーションレイヤーだけではなく、コンピューターサイエンスの部分や、実際にシステムを運用する上では気にしないといけないインフラなども造詣が深いので、そこも含めて相談できるところですね。</InterviewAnswer>
               </div>
               <figure className='flex-1'>
-                <StaticImage src='../../images/interview/buildit/image.jpg' alt='' className='w-full mb-2' />
+                <StaticImage src='../../images/interview/buildit/image.jpg' alt='' width={336} className='w-full mb-2' />
                 <figcaption className='text-center text-sm'>代表取締役の富田様</figcaption>
               </figure>
             </div>
