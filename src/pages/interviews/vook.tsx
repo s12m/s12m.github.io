@@ -9,7 +9,6 @@ import ExternalLink from '../../components/ExternalLink'
 import InterviewQuestion from '../../components/InterviewQuestion'
 import InterviewAnswer from '../../components/InterviewAnswer'
 
-
 const Page = () => {
   return (
     <Layout>
@@ -48,6 +47,7 @@ const Page = () => {
             <InterviewAnswer interviewee='阿部'>今後の展望としては、クリエイティブハブというところをミッションにしてるので、それを実現するためのサービス作りをやっていきたいと考えています。具体的には、映像制作者が必要なところと映像制作者のやりたいことのマッチングなどです。今後もサービス内容自体が広がっていくので、技術面での全体的なハンドリングをお任せしていきたいです。</InterviewAnswer>
             <InterviewAnswer interviewee='種村'>すでにアドバイスはいただいているのですが、今後サービスの規模が拡大していきメンバーが増えていったタイミングで、こういうところを強めていったほうがいいとか、こういうところに人を入れたほうがいいなど、人員計画を含めたアドバイスをいただけると嬉しいです。</InterviewAnswer>
           </div>
+          <InterviewQuestion>ご協力、ありがとうございました。</InterviewQuestion>
         </Container>
       </Article>
     </Layout>
