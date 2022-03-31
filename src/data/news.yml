@@ -1,0 +1,129 @@
+- title: "「WEB+DB PRESS vol127 Phoenix特集こたつで座談会」に執筆者として登壇しました"
+  category: イベント
+  url: https://fukuokaex.connpass.com/event/239094/
+  date: 2022-03-08
+
+- title: "WEB+DB PRESS Vol.127 特集2「作って学ぶPhoenix 〜Elixirによる高速なWeb開発〜」の第5章（最終章）を執筆しました"
+  category: 執筆
+  url: https://gihyo.jp/magazine/wdpress/archive/2022/vol127
+  date: 2022-02-24
+
+- title: "「[Elixir] Phoenix LiveViewでGoogle Analyticsを使う」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/d5e78d18cda91bbf4825
+  date: 2021-12-14
+
+- title: "「fukuoka.ex#47：Elixirお茶会〜Phoenixを学ぼう編（オンライン）」に登壇しました"
+  category: イベント
+  url: https://speakerdeck.com/mokichi/phoenix1-dot-6debiao-zhun-da-zai-saretaliveviewniru-men-sitemiyou
+  date: 2021-10-26
+
+- title: "「[Elixir] Phoenix 1.6.0-devのプロジェクトを作成できるようにする」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/1f6ac77a4e259db5f6d2
+  date: 2021-08-20
+
+- title: "「これからのRubyの話をしよう。そして、Elixirとの共存について」に登壇しました"
+  category: イベント
+  url: https://engineer-lab.findy-code.io/ruby-elixir1
+  date: 2021-08-05
+
+- title: "「legoでLet's EncryptのSSL/TLS証明書を発行し、自動更新するよう設定する」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/f915c28aec6da147d722
+  date: 2021-08-02
+
+- title: "「Elixir Digitalization Implementors#6：LiveView夏祭り」に登壇しました"
+  category: イベント
+  url: https://fukuokaex.connpass.com/event/218299/
+  date: 2021-07-14
+
+- title: "「[Elixir] Phoenix LiveViewのテストを書く」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/d46a82d1248cdbe47a2c
+  date: 2021-07-13
+
+- title: "「Firebase Emulatorsのデータを永続化する」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/4b2fdfeda78fa3f28cdd
+  date: 2021-06-04
+
+- title: "「Deviseのデフォルトのメールアドレスバリデーションが弱すぎる件に対処する」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/acd0f3738ca5cb0fb90a
+  date: 2021-05-14
+
+- title: "「ecscheduleでECSクラスタにタスクのスケジューリングを設定する」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/c0c79e3f2df6632a286e
+  date: 2021-04-16
+
+- title: "「ecspressoで作ったサービスでexecute-commandを使えるようにする」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/7cd00f332171db162971
+  date: 2021-04-09
+
+- title: "「Elixir/PhoenixアプリをGitHub ActionsでGigalixirに継続的デプロイする」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/efe4e87763bfdf589d28
+  date: 2021-04-02
+
+- title: "「Terraform RegistryのAWSモジュールを使いつつ既存VPCをインポートする」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/87b0160d3e16f09e75ac
+  date: 2021-03-30
+
+- title: "「Functions FrameworkでTypeScriptを使いつつCloud Functionsにデプロイする」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/c2dd9db3d093dbbdc1be
+  date: 2021-03-22
+
+- title: "「ruby-jmeterを使ってRailsアプリの負荷試験を継続的に行えるよう準備する」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/08547a5e1bb6373dfc28
+  date: 2021-03-16
+
+- title: "「ngrokの代わりに「tunnelto」を使ってローカルのHTTPサーバに外からアクセスする」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/ea4da191cc582da0a856
+  date: 2021-03-05
+
+- title: "「GAになったGKE AutopilotでElastic Cloud on Kubernetes (ECK)を動かす」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/fe3c879eafb8501a7adb
+  date: 2021-02-26
+
+- title: "「第28回ゆるはち.it: Rubyについてゆるく話す」に登壇しました"
+  category: イベント
+  url: https://speakerdeck.com/mokichi/ractorgachu-takararubyfalsebing-lie-chu-li-woosaraisuru
+  date: 2021-02-24
+
+- title: "「Elixirの革新的ライブラリ「Nx」をMacでも動かしてみた」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/1716b75709559b18ef6c
+  date: 2021-02-19
+
+- title: "「Elixir Digitalization Implementors #1：発足LT会」に登壇しました"
+  category: イベント
+  url: https://fukuokaex.connpass.com/event/188564/
+  date: 2020-09-30
+
+- title: "「WebエンジニアのためのC言語入門」を執筆し、技術書典9とBOOTHにて頒布しました"
+  category: 執筆
+  url: https://s12m.booth.pm/items/2366738
+  date: 2020-09-12
+
+- title: "「RailsエンジニアのためのElixir/Phoenix」を第2版に改訂し、技術書典9とBOOTHにて頒布しました"
+  category: 執筆
+  url: https://s12m.booth.pm/items/2366693
+  date: 2020-09-12
+
+- title: "「RailsエンジニアのためのElixir/Phoenix」を執筆し、技術書典8とBOOTHにて頒布しました"
+  category: 執筆
+  url: https://s12m.booth.pm/items/1888988
+  date: 2020-03-07
+
+- title: "「【20代限定】明日が見えない若手エンジニアナイト」に登壇しました"
+  category: イベント
+  url: https://speakerdeck.com/mokichi/wei-lai-yu-zhi-dekinaifan-ren-falsesheng-cun-zhan-lue
+  date: 2018-02-09
