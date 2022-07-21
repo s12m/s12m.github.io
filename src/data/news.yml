@@ -1,3 +1,18 @@
+- title: "GitHub Actionsで起動するElasticsearchにプラグインをインストールする"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/cf7dd895dea72a61949c
+  date: 2022-07-14
+
+- title: "「ElixirImp#20:Elixir生誕10周年！Elixirお仕事2022春」に登壇しました"
+  category: イベント
+  url: https://speakerdeck.com/mokichi/phoenix-liveviewwohurotakusiyonli-yong-sitemitasuo-gan
+  date: 2022-05-18
+
+- title: "「[Elixir] libclusterを使ってKubernetes上でErlangクラスタを形成する」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/c3157804faa295ce1574
+  date: 2022-05-02
+
 - title: "「WEB+DB PRESS vol127 Phoenix特集こたつで座談会」に執筆者として登壇しました"
   category: イベント
   url: https://fukuokaex.connpass.com/event/239094/
@@ -102,6 +117,11 @@
   category: Qiita
   url: https://qiita.com/mokichi/items/1716b75709559b18ef6c
   date: 2021-02-19
+
+- title: "NPO法人みんなのコード様の社内勉強会にて「WebエンジニアのためのKubernetesサクッと入門」を発表しました"
+  category: イベント
+  url: https://speakerdeck.com/mokichi/webenziniafalsetamefalsekubernetessakututoru-men
+  date: 2020-11-30
 
 - title: "「Elixir Digitalization Implementors #1：発足LT会」に登壇しました"
   category: イベント
