@@ -3255,11 +3255,6 @@ type LatestNewsYamlQueryVariables = Exact<{ [key: string]: never; }>;
 
 type LatestNewsYamlQuery = { readonly allNewsYaml: { readonly edges: ReadonlyArray<{ readonly node: Pick<NewsYaml, 'title' | 'category' | 'url' | 'date'> }> } };
 
-type AllNewsYamlQueryVariables = Exact<{ [key: string]: never; }>;
-
-
-type AllNewsYamlQuery = { readonly allNewsYaml: { readonly edges: ReadonlyArray<{ readonly node: Pick<NewsYaml, 'title' | 'category' | 'url' | 'date'> }> } };
-
 type GatsbyImageSharpFixedFragment = Pick<ImageSharpFixed, 'base64' | 'width' | 'height' | 'src' | 'srcSet'>;
 
 type GatsbyImageSharpFixed_tracedSVGFragment = Pick<ImageSharpFixed, 'tracedSVG' | 'width' | 'height' | 'src' | 'srcSet'>;
@@ -3285,6 +3280,11 @@ type GatsbyImageSharpFluid_withWebp_tracedSVGFragment = Pick<ImageSharpFluid, 't
 type GatsbyImageSharpFluid_noBase64Fragment = Pick<ImageSharpFluid, 'aspectRatio' | 'src' | 'srcSet' | 'sizes'>;
 
 type GatsbyImageSharpFluid_withWebp_noBase64Fragment = Pick<ImageSharpFluid, 'aspectRatio' | 'src' | 'srcSet' | 'srcWebp' | 'srcSetWebp' | 'sizes'>;
+
+type AllNewsYamlQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+type AllNewsYamlQuery = { readonly allNewsYaml: { readonly edges: ReadonlyArray<{ readonly node: Pick<NewsYaml, 'title' | 'category' | 'url' | 'date'> }> } };
 
 type PagesQueryQueryVariables = Exact<{ [key: string]: never; }>;
 
