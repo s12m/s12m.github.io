@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Container: React.FC = ({ children }) => {
+const Container: React.FC<HasChildrenProps> = ({ children }) => {
   return (
     <div className='container mx-auto max-w-6xl'>
       {children}

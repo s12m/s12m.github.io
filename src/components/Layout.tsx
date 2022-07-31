@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { ChevronDownIcon } from '@heroicons/react/outline'
 
-const Layout: React.FC = ({ children }) => {
+const Layout: React.FC<HasChildrenProps> = ({ children }) => {
   return (
     <>
       <Header />

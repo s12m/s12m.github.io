@@ -46,13 +46,13 @@ const TopInterviewList = () => {
   )
 }
 
-const Card: React.FC = ({ children }) => {
+const Card: React.FC<HasChildrenProps> = ({ children }) => {
   return (
     <div className='card w-full bg-base-100 shadow-md'>{children}</div>
   )
 }
 
-const CardBody: React.FC = ({ children }) => {
+const CardBody: React.FC<HasChildrenProps> = ({ children }) => {
   return (
     <div className='card-body'>{children}</div>
   )

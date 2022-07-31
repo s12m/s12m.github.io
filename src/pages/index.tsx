@@ -69,7 +69,7 @@ const Page = () => {
   )
 }
 
-const Section: React.FC = ({ children }) => {
+const Section: React.FC<HasChildrenProps> = ({ children }) => {
   return (
     <section className='py-16'>{children}</section>
   )

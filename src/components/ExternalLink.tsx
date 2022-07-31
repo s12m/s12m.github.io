@@ -1,7 +1,7 @@
 import React from 'react'
 import { ExternalLinkIcon } from '@heroicons/react/outline'
 
-type Props = {
+type Props = HasChildrenProps & {
   href: string
 }
 
