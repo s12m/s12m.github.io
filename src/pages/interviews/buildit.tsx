@@ -12,8 +12,8 @@ import InterviewAnswer from '../../components/InterviewAnswer'
 const Page = () => {
   return (
     <Layout>
+      <InterviewTop companyName='株式会社ビルディット' image={TopImage} />
       <Article>
-        <InterviewTop companyName='株式会社ビルディット' image={TopImage} />
         <Container>
           <div className='mb-8'><ExternalLink href='https://bldt.jp'>株式会社ビルディット</ExternalLink> 代表取締役の富田様にご協力いただきました。<br />(2019年12月2日)</div>
           <div className='mb-8'>

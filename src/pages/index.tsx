@@ -53,12 +53,8 @@ const Page = () => {
             <div className='bg-[url("../images/devicon/elastic.svg")] bg-contain bg-center bg-no-repeat' />
             <i className='devicon-amazonwebservices-plain-wordmark colored text-8xl text-center'></i>
             <i className='devicon-googlecloud-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-docker-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-kubernetes-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-ansible-plain-wordmark colored text-8xl text-center'></i>
             <i className='devicon-terraform-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-github-original-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-circleci-plain-wordmark colored text-8xl text-center'></i>
+            <i className='devicon-kubernetes-plain-wordmark colored text-8xl text-center'></i>
           </div>
           <div className='text-center mt-8'>
             and more

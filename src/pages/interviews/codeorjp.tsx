@@ -12,8 +12,8 @@ import InterviewAnswer from '../../components/InterviewAnswer'
 const Page = () => {
   return (
     <Layout>
+      <InterviewTop companyName='NPO法人みんなのコード' image={TopImage} />
       <Article>
-        <InterviewTop companyName='NPO法人みんなのコード' image={TopImage} />
         <Container>
           <div className='mb-8'><ExternalLink href='https://code.or.jp'>NPO法人みんなのコード</ExternalLink> 代表理事の利根川様とCTOの田中様にご協力いただきました。<br />(2019年12月10日)</div>
           <div className='mb-8'>

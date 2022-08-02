@@ -19,16 +19,16 @@ const Header = () => {
   return (
     <header className='navbar fixed px-4 pt-4 z-10'>
       <div className='flex-1'>
-        <Link to='/'>
+        <Link to='/' className='bg-base-100/80 rounded-box px-4 py-2'>
           <StaticImage src='../images/logo/landscape.png' alt='' height={64} />
         </Link>
       </div>
-      <div className='flex-none bg-base-100 shadow-md rounded-box p-4'>
+      <div className='flex-none bg-base-100/80 rounded-box p-4'>
         <ul className='menu menu-horizontal p-0'>
           <li><Link to='/news/'>お知らせ</Link></li>
           <li><Link to='/about/'>会社案内</Link></li>
           <li>
-            <a>顧客インタビュー<ChevronDownIcon width={16} /></a>
+            <a>お客様インタビュー<ChevronDownIcon width={16} /></a>
             <ul className='bg-base-100 shadow-md rounded-box'>
               <li><Link to="/interviews/vook/">株式会社Vook 様</Link></li>
               <li><Link to="/interviews/buildit/">株式会社ビルディット 様</Link></li>

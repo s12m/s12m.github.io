@@ -7,7 +7,7 @@ type Props = {
 
 const InterviewTop: React.FC<Props> = ({ companyName, image }) => {
   return (
-    <section className='h-[75vh] bg-fixed bg-center bg-cover mb-8' style={{backgroundImage: `url(${image})`}}>
+    <section className='h-[80vh] bg-fixed bg-center bg-cover mb-8' style={{backgroundImage: `url(${image})`}}>
       <div className='flex items-center justify-center w-full h-full bg-[#0008]'>
         <h1 className='text-center text-3xl text-s12m-gray'>
           顧客インタビュー

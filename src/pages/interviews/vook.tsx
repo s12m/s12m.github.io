@@ -12,8 +12,8 @@ import InterviewAnswer from '../../components/InterviewAnswer'
 const Page = () => {
   return (
     <Layout>
+      <InterviewTop companyName='株式会社Vook' image={TopImage} />
       <Article>
-        <InterviewTop companyName='株式会社Vook' image={TopImage} />
         <Container>
           <div className='mb-8'><ExternalLink href='https://vook.co.jp'>株式会社Vook</ExternalLink> 取締役の阿部様とWebデザイナーの種村様にご協力いただきました。<br />(2019年12月23日)</div>
           <div className='mb-8'>
