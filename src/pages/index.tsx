@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import Divider from '../components/Divider'
 import Container from '../components/Container'
 import LatestNews from '../components/LatestNews'
+import TopMemberList from '../components/TopMemberList'
 import TopInterviewList from '../components/TopInterviewList'
 import TopWorkList from '../components/TopWorkList'
 
@@ -26,6 +27,13 @@ const Page = () => {
           <div className='text-center mt-4'>
             <Link to='/news/' className='link'>すべてのお知らせを見る</Link>
           </div>
+        </Container>
+      </Section>
+      <Divider />
+      <Section>
+        <SectionHeader title='MEMBER' />
+        <Container>
+          <TopMemberList />
         </Container>
       </Section>
       <Divider />
