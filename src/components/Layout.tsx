@@ -30,9 +30,9 @@ const Header = () => {
           <li>
             <a>お客様インタビュー<ChevronDownIcon width={16} /></a>
             <ul className='bg-base-100 shadow-md rounded-box'>
-              <li><Link to="/interviews/vook/">株式会社Vook 様</Link></li>
-              <li><Link to="/interviews/buildit/">株式会社ビルディット 様</Link></li>
-              <li><Link to="/interviews/codeorjp/">NPO法人みんなのコード 様</Link></li>
+              <li><Link to="/interviews/vook/">株式会社Vook様</Link></li>
+              <li><Link to="/interviews/buildit/">株式会社ビルディット様</Link></li>
+              <li><Link to="/interviews/codeorjp/">NPO法人みんなのコード様</Link></li>
             </ul>
           </li>
           <li><a href='mailto:contact@smartalgorithm.co.jp' className='bg-s12m-red text-s12m-gray font-bold'>お問い合わせ</a></li>

@@ -6,6 +6,7 @@ import Divider from '../components/Divider'
 import Container from '../components/Container'
 import LatestNews from '../components/LatestNews'
 import TopInterviewList from '../components/TopInterviewList'
+import TopWorkList from '../components/TopWorkList'
 
 const Page = () => {
   return (
@@ -29,9 +30,16 @@ const Page = () => {
       </Section>
       <Divider />
       <Section>
-        <SectionHeader title='SUCCESS' />
+        <SectionHeader title='INTERVIEW' />
         <Container>
           <TopInterviewList />
+        </Container>
+      </Section>
+      <Divider />
+      <Section>
+        <SectionHeader title='WORK' />
+        <Container>
+          <TopWorkList />
         </Container>
       </Section>
       <Divider />
