@@ -8,6 +8,7 @@ import LatestNews from '../components/LatestNews'
 import TopMemberList from '../components/TopMemberList'
 import TopInterviewList from '../components/TopInterviewList'
 import TopWorkList from '../components/TopWorkList'
+import TopTechnologyList from '../components/TopTechnologyList'
 
 const Page = () => {
   return (
@@ -54,27 +55,7 @@ const Page = () => {
       <Section>
         <SectionHeader title='TECHNOLOGY' />
         <Container>
-          <div className='grid grid-cols-8 gap-y-8'>
-            <i className='devicon-ruby-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-rails-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-elixir-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-phoenix-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-nodejs-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-typescript-plain colored text-8xl text-center'></i>
-            <i className='devicon-react-original-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-vuejs-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-mysql-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-postgresql-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-redis-plain-wordmark colored text-8xl text-center'></i>
-            <div className='bg-[url("../images/devicon/elastic.svg")] bg-contain bg-center bg-no-repeat' />
-            <i className='devicon-amazonwebservices-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-googlecloud-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-terraform-plain-wordmark colored text-8xl text-center'></i>
-            <i className='devicon-kubernetes-plain-wordmark colored text-8xl text-center'></i>
-          </div>
-          <div className='text-center mt-8'>
-            and more
-          </div>
+          <TopTechnologyList />
         </Container>
       </Section>
     </Layout>
