@@ -8,6 +8,7 @@ import Container from '../../components/Container'
 import ExternalLink from '../../components/ExternalLink'
 import InterviewQuestion from '../../components/InterviewQuestion'
 import InterviewAnswer from '../../components/InterviewAnswer'
+import MetaTags from '../../components/MetaTags'
 
 const Page = () => {
   return (
@@ -55,3 +56,14 @@ const Page = () => {
 }
 
 export default Page
+
+export function Head() {
+  return (
+    <MetaTags
+      title='お客様インタビュー 株式会社Vook様 | 株式会社スマートアルゴリズム'
+      description='株式会社Vook 取締役の阿部様とWebデザイナーの種村様にご協力いただきました。'
+      image={TopImage}
+    >
+    </MetaTags>
+  )
+}

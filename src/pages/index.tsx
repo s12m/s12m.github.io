@@ -9,6 +9,7 @@ import TopMemberList from '../components/TopMemberList'
 import TopInterviewList from '../components/TopInterviewList'
 import TopWorkList from '../components/TopWorkList'
 import TopTechnologyList from '../components/TopTechnologyList'
+import MetaTags from '../components/MetaTags'
 
 const Page = () => {
   return (
@@ -75,3 +76,12 @@ const SectionHeader: React.FC<{ title: string }> = ({ title }) => {
 }
 
 export default Page
+
+export function Head() {
+  return (
+    <MetaTags
+      title='株式会社スマートアルゴリズム | 情報科学でビジネスを前に進める'
+    >
+    </MetaTags>
+  )
+}

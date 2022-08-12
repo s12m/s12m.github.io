@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import Article from '../components/Article'
 import Container from '../components/Container'
+import MetaTags from '../components/MetaTags'
 
 const Page = () => {
   return (
@@ -78,3 +79,12 @@ const Page = () => {
 }
 
 export default Page
+
+export function Head() {
+  return (
+    <MetaTags
+      title='会社案内 | 株式会社スマートアルゴリズム'
+    >
+    </MetaTags>
+  )
+}

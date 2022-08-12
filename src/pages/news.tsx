@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Article from '../components/Article'
 import Container from '../components/Container'
 import News from '../components/News'
+import MetaTags from '../components/MetaTags'
 
 const Page: React.FC<PageProps<GatsbyTypes.AllNewsYamlQuery>> = ({ data }) => {
   return (
@@ -33,3 +34,12 @@ export const query = graphql`
 `
 
 export default Page
+
+export function Head() {
+  return (
+    <MetaTags
+      title='お知らせ | 株式会社スマートアルゴリズム'
+    >
+    </MetaTags>
+  )
+}
