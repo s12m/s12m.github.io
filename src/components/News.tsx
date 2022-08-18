@@ -2,7 +2,7 @@ import React from 'react'
 import ExternalLink from './ExternalLink'
 
 type Props = {
-  data: GatsbyTypes.AllNewsYamlQuery
+  data: Queries.AllNewsYamlQuery
 }
 
 const News: React.FC<Props> = ({ data }) => {

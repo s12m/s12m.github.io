@@ -5,6 +5,7 @@ const config: GatsbyConfig = {
     title: 'new',
     siteUrl: 'https://www.yourdomain.tld'
   },
+  graphqlTypegen: true,
   plugins: ['gatsby-plugin-postcss', 'gatsby-plugin-image', 'gatsby-plugin-sitemap', {
     resolve: 'gatsby-plugin-manifest',
     options: {

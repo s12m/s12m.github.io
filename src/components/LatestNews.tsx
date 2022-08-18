@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import News from './News'
 
 const LatestNews = () => {
-  const data = useStaticQuery<GatsbyTypes.LatestNewsYamlQuery>(graphql`
+  const data = useStaticQuery<Queries.LatestNewsYamlQuery>(graphql`
     query LatestNewsYaml {
       allNewsYaml(limit: 5) {
         edges {

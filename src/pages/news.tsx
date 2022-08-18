@@ -6,7 +6,7 @@ import Container from '../components/Container'
 import News from '../components/News'
 import MetaTags from '../components/MetaTags'
 
-const Page: React.FC<PageProps<GatsbyTypes.AllNewsYamlQuery>> = ({ data }) => {
+const Page: React.FC<PageProps<Queries.AllNewsYamlQuery>> = ({ data }) => {
   return (
     <Layout>
       <Article title='お知らせ'>
