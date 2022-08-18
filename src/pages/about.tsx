@@ -33,45 +33,45 @@ const Page = () => {
             スマートアルゴリズムのビジョンに少しでも共感してくださる方がいれば幸いです。
           */}
           <div className='divider' />
-          <table className='table w-full'>
-            <tbody>
-              <tr>
-                <th>社名</th>
-                <td>株式会社スマートアルゴリズム</td>
-              </tr>
-              <tr>
-                <th>設立</th>
-                <td>2015年1月29日</td>
-              </tr>
-              <tr>
-                <th>資本金</th>
-                <td>2,000,000円</td>
-              </tr>
-              <tr>
-                <th>所在地</th>
-                <td>〒115-0045<br />東京都北区赤羽1-7-9 赤羽第一葉山ビル4階</td>
-              </tr>
-              <tr>
-                <th>営業時間</th>
-                <td>月〜金 10:00〜18:00 ※土日祝日は定休日</td>
-              </tr>
-              <tr>
-                <th>代表取締役</th>
-                <td>齋藤 和也</td>
-              </tr>
-              <tr>
-                <th>事業内容</th>
-                <td>
-                  <ul className='list-disc pl-4'>
-                    <li>ソフトウェアの企画、設計、開発、販売、運用、保守及び管理</li>
-                    <li>アプリケーションの企画、開発及び販売</li>
-                    <li>情報通信ネットワークを利用した各種情報提供サービス業及び各種情報処理サービス業</li>
-                    <li>コンピュータソフトウェアに関する教育研修事業</li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div className='flex'>
+            <div className='w-1/5 min-w-[8em] font-bold'>社名</div>
+            <div className='w-4/5'>株式会社スマートアルゴリズム</div>
+          </div>
+          <div className='divider' />
+          <div className='flex'>
+            <div className='w-1/5 min-w-[8em] font-bold'>設立</div>
+            <div className='w-4/5'>2015年1月29日</div>
+          </div>
+          <div className='divider' />
+          <div className='flex'>
+            <div className='w-1/5 min-w-[8em] font-bold'>資本金</div>
+            <div className='w-4/5'>2,000,000円</div>
+          </div>
+          <div className='divider' />
+          <div className='flex'>
+            <div className='w-1/5 min-w-[8em] font-bold'>所在地</div>
+            <div className='w-4/5'>〒115-0045<br />東京都北区赤羽1-7-9 赤羽第一葉山ビル4階</div>
+          </div>
+          <div className='divider' />
+          <div className='flex'>
+            <div className='w-1/5 min-w-[8em] font-bold'>営業時間</div>
+            <div className='w-4/5'>月〜金 10:00〜18:00 ※土日祝日は定休日</div>
+          </div>
+          <div className='divider' />
+          <div className='flex'>
+            <div className='w-1/5 min-w-[8em] font-bold'>代表取締役</div>
+            <div className='w-4/5'>齋藤 和也</div>
+          </div>
+          <div className='divider' />
+          <div className='flex'>
+            <div className='w-1/5 min-w-[8em] font-bold'>事業内容</div>
+            <ul className='w-4/5 list-disc ml-4'>
+              <li>ソフトウェアの企画、設計、開発、販売、運用、保守及び管理</li>
+              <li>アプリケーションの企画、開発及び販売</li>
+              <li>情報通信ネットワークを利用した各種情報提供サービス業及び各種情報処理サービス業</li>
+              <li>コンピュータソフトウェアに関する教育研修事業</li>
+            </ul>
+          </div>
         </Container>
       </Article>
     </Layout>

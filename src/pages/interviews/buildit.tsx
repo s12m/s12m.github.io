@@ -31,7 +31,7 @@ const Page = () => {
           </div>
           <div className='mb-8'>
             <InterviewQuestion>弊社に依頼して良かったと思うことはありますか？</InterviewQuestion>
-            <div className='flex flex-row-reverse gap-4'>
+            <div className='md:flex flex-row-reverse gap-4'>
               <div className='flex-[2]'>
                 <InterviewAnswer interviewee='富田'>色々ありますが、まず組んでいただける幅が広く、こちらが実装仕様まで言及しなくても、むしろこちらが考えるよりもスマートで良い解決策を提案して構築するところまで、まとめて面倒を見てもらえるところがありがたいです。あとはアプリケーションレイヤーだけではなく、コンピューターサイエンスの部分や、実際にシステムを運用する上では気にしないといけないインフラなども造詣が深いので、そこも含めて相談できるところですね。</InterviewAnswer>
               </div>

@@ -7,7 +7,7 @@ type Props = HasChildrenProps & {
 
 const ExternalLink: React.FC<Props> = ({ children, href }) => {
   return (
-    <a href={href} target='_blank' className='hover:underline'>
+    <a href={href} target='_blank' className='underline hover:underline'>
       {children}<ExternalLinkIcon className='inline ml-1' width={16} />
     </a>
   )

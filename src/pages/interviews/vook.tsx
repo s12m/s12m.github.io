@@ -32,7 +32,7 @@ const Page = () => {
           </div>
           <div className='mb-8'>
             <InterviewQuestion>弊社に依頼して良かったと思うことはありますか？</InterviewQuestion>
-            <div className='flex flex-row-reverse gap-4'>
+            <div className='md:flex flex-row-reverse gap-4'>
               <div className='flex-[2]'>
                 <InterviewAnswer interviewee='阿部'>開発メンバーの技術的なモチベーションがすごく上がっているところです。僕と代表はエンジニアだったりIT畑の人間ではないので、社員に与えるインセンティブとなると、どうしてもお金のような生々しいものになってしまいます。けれども、スマートアルゴリズムさんと仕事することによって、技術面の向上だったり、仕事が毎日楽しくなるようなひとつの要因になっています。</InterviewAnswer>
                 <InterviewAnswer interviewee='種村'>フロントをやっているけれどあまり知識がある訳ではない中で、いつもデザイナーにもわかる言葉で丁寧に説明していただいています。知識の幅の広さと深さがすごく、投げかけたことへのフィードバックが適切で、デザイナーもエンジニアもうまく仕事が回っているので大変助かっています。</InterviewAnswer>

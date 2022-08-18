@@ -47,7 +47,7 @@ const Page = () => {
           </div>
           <div className='mb-8'>
             <InterviewQuestion>弊社に依頼して良かったと思うことはありますか？</InterviewQuestion>
-            <div className='flex flex-row-reverse gap-4'>
+            <div className='md-flex flex-row-reverse gap-4'>
               <div className='flex-[2]'>
                 <InterviewAnswer interviewee='田中'>
                   全部ですね(笑)。我々ではもうこれ以上見きれないという部分を解きほぐして見つけてくれるのが大変助かります。<br />

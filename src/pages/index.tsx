@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import { ChevronDownIcon } from '@heroicons/react/outline'
 import Layout from '../components/Layout'
 import Divider from '../components/Divider'
 import Container from '../components/Container'
@@ -12,15 +13,29 @@ import TopTechnologyList from '../components/TopTechnologyList'
 import MetaTags from '../components/MetaTags'
 
 const Page = () => {
+  const scrollToSecondSection = () => {
+    document
+      .querySelectorAll('section')[1]
+      ?.scrollIntoView({
+        behavior: 'smooth'
+      })
+  }
+
   return (
     <Layout>
-      <section className='flex items-center justify-center h-[80vh] bg-base-100'>
-        <div className='mt-16 text-center'>
-          <StaticImage src='../images/logo/portrait.png' alt='株式会社スマートアルゴリズム' height={256} />
-          <h1 className='text-2xl text-s12m-blue'>情報科学でビジネスを前に進める</h1>
-          <p className='py-6'>問題の本質を見抜き、ITの原理原則を理解した上で最適な解のために使いこなせる技術者こそ、<br />ビジネス課題の根本的かつ迅速な解決に必要です</p>
+      <div className='relative'>
+        <section className='flex items-center justify-center h-screen bg-base-100 px-4 md:px-0'>
+          <div className='text-center'>
+            <StaticImage src='../images/logo/portrait.png' alt='株式会社スマートアルゴリズム' height={256} />
+            <h1 className='text-2xl text-s12m-blue whitespace-nowrap'>情報科学でビジネスを前に進める</h1>
+            <p className='py-6'>問題の本質を見抜き、ITの原理原則を理解した上で最適な解のために使いこなせる技術者こそ、<br />ビジネス課題の根本的かつ迅速な解決に必要です</p>
+            <a href='mailto:contact@smartalgorithm.co.jp' className='btn bg-s12m-red border-s12m-red text-s12m-gray font-bold'>ご相談はこちらから</a>
+          </div>
+        </section>
+        <div className='absolute bottom-4 inset-x-0 text-center'>
+          <ChevronDownIcon className='m-auto w-16 stroke-[0.5] hover:cursor-pointer' onClick={scrollToSecondSection} />
         </div>
-      </section>
+      </div>
       <Divider />
       <Section>
         <SectionHeader title='NEWS' />
