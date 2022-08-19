@@ -41,7 +41,7 @@ const Page = () => {
         <SectionHeader title='NEWS' />
         <Container>
           <LatestNews />
-          <div className='text-center mt-4'>
+          <div className='text-center mt-16'>
             <Link to='/news/' className='link'>すべてのお知らせを見る</Link>
           </div>
         </Container>
