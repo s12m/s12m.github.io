@@ -29,7 +29,6 @@ const Page = () => {
             <StaticImage src='../images/logo/portrait.png' alt='株式会社スマートアルゴリズム' height={256} />
             <h1 className='text-2xl text-s12m-blue whitespace-nowrap'>情報科学でビジネスを前に進める</h1>
             <p className='py-6'>問題の本質を見抜き、ITの原理原則を理解した上で最適な解のために使いこなせる技術者こそ、<br />ビジネス課題の根本的かつ迅速な解決に必要です</p>
-            <a href='mailto:contact@smartalgorithm.co.jp' className='btn bg-s12m-red border-s12m-red text-s12m-gray font-bold'>ご相談はこちらから</a>
           </div>
         </section>
         <div className='absolute bottom-4 inset-x-0 text-center'>
@@ -41,7 +40,7 @@ const Page = () => {
         <SectionHeader title='NEWS' />
         <Container>
           <LatestNews />
-          <div className='text-center mt-16'>
+          <div className='text-center mt-8'>
             <Link to='/news/' className='link'>すべてのお知らせを見る</Link>
           </div>
         </Container>
@@ -65,6 +64,9 @@ const Page = () => {
         <SectionHeader title='WORK' />
         <Container>
           <TopWorkList />
+          <div className='text-center mt-8'>
+            <a href='mailto:contact@smartalgorithm.co.jp' className='btn bg-s12m-red border-s12m-red text-s12m-gray font-bold normal-case'>ご相談はこちらから</a>
+          </div>
         </Container>
       </Section>
       <Divider />

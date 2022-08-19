@@ -4,7 +4,7 @@ import ElasticSvg from '../images/devicon/elastic-wordmark.svg'
 const TopTechnologyList = () => {
   return (
     <div className='flex flex-col gap-y-8'>
-      <div className='grid grid-cols-2 md:grid-cols-8 gap-y-8 justify-items-center items-center'>
+      <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-y-8 justify-items-center items-center'>
         <i className='devicon-ruby-plain-wordmark colored text-8xl'></i>
         <i className='devicon-rails-plain-wordmark colored text-8xl'></i>
         <i className='devicon-elixir-plain-wordmark colored text-8xl'></i>
