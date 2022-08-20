@@ -1,4 +1,5 @@
 import React from 'react'
+import { HeadProps } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../../components/Layout'
 import Article from '../../components/Article'
@@ -75,9 +76,10 @@ const Page = () => {
 
 export default Page
 
-export function Head() {
+export function Head({ location }: HeadProps) {
   return (
     <MetaTags
+      pathname={location.pathname}
       title='お客様インタビュー NPO法人みんなのコード様 | 株式会社スマートアルゴリズム'
       description='NPO法人みんなのコード 代表理事の利根川様とCTOの田中様にご協力いただきました。'
       image={TopImage}

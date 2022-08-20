@@ -1,4 +1,5 @@
 import React from 'react'
+import { HeadProps } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../../components/Layout'
 import Article from '../../components/Article'
@@ -62,9 +63,10 @@ const Page = () => {
 
 export default Page
 
-export function Head() {
+export function Head({ location }: HeadProps) {
   return (
     <MetaTags
+      pathname={location.pathname}
       title='お客様インタビュー 株式会社ビルディット様 | 株式会社スマートアルゴリズム'
       description='株式会社ビルディット 代表取締役の富田様にご協力いただきました。'
       image={TopImage}

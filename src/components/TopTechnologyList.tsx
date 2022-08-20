@@ -15,7 +15,7 @@ const TopTechnologyList = () => {
       <i className='devicon-mysql-plain-wordmark colored text-8xl'></i>
       <i className='devicon-postgresql-plain-wordmark colored text-8xl'></i>
       <i className='devicon-redis-plain-wordmark colored text-6xl align-bottom'></i>
-      <img className='w-full h-full' src={ElasticSvg} />
+      <img className='w-full h-full' src={ElasticSvg} alt='Elastic stack' />
       <i className='devicon-amazonwebservices-plain-wordmark colored text-8xl'></i>
       <i className='devicon-googlecloud-plain-wordmark colored text-8xl'></i>
       <i className='devicon-terraform-plain-wordmark colored text-8xl'></i>

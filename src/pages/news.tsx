@@ -1,5 +1,5 @@
 import React from 'react'
-import { PageProps, graphql } from 'gatsby'
+import { HeadProps, PageProps, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Article from '../components/Article'
 import Container from '../components/Container'
@@ -35,9 +35,10 @@ export const query = graphql`
 
 export default Page
 
-export function Head() {
+export function Head({ location }: HeadProps) {
   return (
     <MetaTags
+      pathname={location.pathname}
       title='お知らせ | 株式会社スマートアルゴリズム'
     >
     </MetaTags>

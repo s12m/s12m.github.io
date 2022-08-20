@@ -29,7 +29,7 @@ const DrawerMenu = () => {
     <ul className='menu p-4 overflow-y-auto w-4/5 md:w-2/5 bg-base-100 text-base-content'>
       <li><Link to='/news/'>お知らせ</Link></li>
       <li><Link to='/about/'>会社案内</Link></li>
-      <li><a>お客様インタビュー<ChevronDownIcon width={16} /></a></li>
+      <li><a href='#'>お客様インタビュー<ChevronDownIcon width={16} /></a></li>
       <li className='ml-4'><Link to='/interviews/vook/'>株式会社Vook様</Link></li>
       <li className='ml-4'><Link to='/interviews/buildit/'>株式会社ビルディット様</Link></li>
       <li className='ml-4'><Link to='/interviews/codeorjp/'>NPO法人みんなのコード様</Link></li>
@@ -47,13 +47,13 @@ const Header = () => {
         </Link>
         <div className='bg-base-100/80 rounded-box shadow-md p-4'>
           <label htmlFor='my-drawer' className='lg:hidden'>
-            <Hamburger toggled={false} />
+            <Hamburger toggled={false} label='menu' />
           </label>
           <ul className='hidden lg:flex menu menu-horizontal p-0'>
             <li><Link to='/news/'>お知らせ</Link></li>
             <li><Link to='/about/'>会社案内</Link></li>
             <li>
-              <a>お客様インタビュー<ChevronDownIcon width={16} /></a>
+              <a href='#'>お客様インタビュー<ChevronDownIcon width={16} /></a>
               <ul className='bg-base-100 shadow-md rounded-box'>
                 <li><Link to='/interviews/vook/'>株式会社Vook様</Link></li>
                 <li><Link to='/interviews/buildit/'>株式会社ビルディット様</Link></li>

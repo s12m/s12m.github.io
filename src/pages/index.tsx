@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { HeadProps, Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { ChevronDownIcon } from '@heroicons/react/outline'
 import Layout from '../components/Layout'
@@ -98,9 +98,10 @@ const SectionHeader: React.FC<{ title: string }> = ({ title }) => {
 
 export default Page
 
-export function Head() {
+export function Head({ location }: HeadProps) {
   return (
     <MetaTags
+      pathname={location.pathname}
       title='株式会社スマートアルゴリズム | 情報科学でビジネスを前に進める'
     >
     </MetaTags>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { HeadProps } from 'gatsby'
 import Layout from '../components/Layout'
 import Article from '../components/Article'
 import Container from '../components/Container'
@@ -80,9 +81,10 @@ const Page = () => {
 
 export default Page
 
-export function Head() {
+export function Head({ location }: HeadProps) {
   return (
     <MetaTags
+      pathname={location.pathname}
       title='会社案内 | 株式会社スマートアルゴリズム'
     >
     </MetaTags>
