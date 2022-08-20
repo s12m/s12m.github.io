@@ -10,6 +10,7 @@ import TopMemberList from '../components/TopMemberList'
 import TopInterviewList from '../components/TopInterviewList'
 import TopWorkList from '../components/TopWorkList'
 import TopTechnologyList from '../components/TopTechnologyList'
+import InquiryLink from '../components/InquiryLink'
 import MetaTags from '../components/MetaTags'
 
 const Page = () => {
@@ -65,7 +66,7 @@ const Page = () => {
         <Container>
           <TopWorkList />
           <div className='text-center mt-8'>
-            <a href='mailto:contact@smartalgorithm.co.jp' className='btn bg-s12m-red border-s12m-red text-s12m-gray font-bold normal-case'>ご相談はこちらから</a>
+            <InquiryLink>ご相談はこちらから</InquiryLink>
           </div>
         </Container>
       </Section>
@@ -74,6 +75,9 @@ const Page = () => {
         <SectionHeader title='TECHNOLOGY' />
         <Container>
           <TopTechnologyList />
+          <div className='text-center mt-8'>
+            <InquiryLink>未掲載の技術でもご相談いただけます</InquiryLink>
+          </div>
         </Container>
       </Section>
     </Layout>

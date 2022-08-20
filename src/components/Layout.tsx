@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { ChevronDownIcon } from '@heroicons/react/outline'
 import Hamburger from 'hamburger-react'
+import InquiryLink from './InquiryLink'
 
 const Layout: React.FC<HasChildrenProps> = ({ children }) => {
   return (
@@ -25,14 +26,14 @@ const Layout: React.FC<HasChildrenProps> = ({ children }) => {
 
 const DrawerMenu = () => {
   return (
-    <ul className='menu p-4 overflow-y-auto w-4/5 bg-base-100 text-base-content'>
+    <ul className='menu p-4 overflow-y-auto w-4/5 md:w-2/5 bg-base-100 text-base-content'>
       <li><Link to='/news/'>お知らせ</Link></li>
       <li><Link to='/about/'>会社案内</Link></li>
       <li><a>お客様インタビュー<ChevronDownIcon width={16} /></a></li>
       <li className='ml-4'><Link to='/interviews/vook/'>株式会社Vook様</Link></li>
       <li className='ml-4'><Link to='/interviews/buildit/'>株式会社ビルディット様</Link></li>
       <li className='ml-4'><Link to='/interviews/codeorjp/'>NPO法人みんなのコード様</Link></li>
-      <li><a href='mailto:contact@smartalgorithm.co.jp' className='bg-s12m-red text-s12m-gray font-bold'>お問い合わせ</a></li>
+      <li><InquiryLink>お問い合わせ</InquiryLink></li>
     </ul>
   )
 }
@@ -41,10 +42,10 @@ const Header = () => {
   return (
     <header className='navbar fixed p-4 z-10'>
       <div className='container mx-auto max-w-6xl justify-between'>
-        <Link to='/' className='bg-base-100/50 rounded-box shadow-md px-4 py-2'>
+        <Link to='/' className='bg-base-100/80 rounded-box shadow-md px-4 py-2'>
           <StaticImage src='../images/logo/landscape.png' alt='' height={64} />
         </Link>
-        <div className='bg-base-100/50 rounded-box shadow-md p-4'>
+        <div className='bg-base-100/80 rounded-box shadow-md p-4'>
           <label htmlFor='my-drawer' className='lg:hidden'>
             <Hamburger toggled={false} />
           </label>
