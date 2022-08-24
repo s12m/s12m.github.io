@@ -12,7 +12,7 @@ const TopInterviewList = () => {
     <CardList>
       <Card>
         <figure>
-          <StaticImage src='../images/interview/vook/top.jpg' alt='' aspectRatio={16/9} />
+          <StaticImage placeholder='none' src='../images/interview/vook/top.jpg' alt='' aspectRatio={16/9} />
         </figure>
         <CardBody>
           <CardTitle>株式会社Vook様</CardTitle>
@@ -22,7 +22,7 @@ const TopInterviewList = () => {
       </Card>
       <Card>
         <figure>
-          <StaticImage src='../images/interview/buildit/top.jpg' alt='' aspectRatio={16/9} />
+          <StaticImage placeholder='none' src='../images/interview/buildit/top.jpg' alt='' aspectRatio={16/9} />
         </figure>
         <CardBody>
           <CardTitle>株式会社ビルディット様</CardTitle>
@@ -32,7 +32,7 @@ const TopInterviewList = () => {
       </Card>
       <Card>
         <figure>
-          <StaticImage src='../images/interview/codeorjp/top.jpg' alt='' aspectRatio={16/9} />
+          <StaticImage placeholder='none' src='../images/interview/codeorjp/top.jpg' alt='' aspectRatio={16/9} />
         </figure>
         <CardBody>
           <CardTitle>NPO法人みんなのコード様</CardTitle>

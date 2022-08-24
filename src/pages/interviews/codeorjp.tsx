@@ -48,7 +48,7 @@ const Page = () => {
           </div>
           <div className='mb-8'>
             <InterviewQuestion>弊社に依頼して良かったと思うことはありますか？</InterviewQuestion>
-            <div className='md-flex flex-row-reverse gap-4'>
+            <div className='md:flex flex-row-reverse gap-4'>
               <div className='flex-[2]'>
                 <InterviewAnswer interviewee='田中'>
                   全部ですね(笑)。我々ではもうこれ以上見きれないという部分を解きほぐして見つけてくれるのが大変助かります。<br />
@@ -57,7 +57,7 @@ const Page = () => {
                 </InterviewAnswer>
               </div>
               <figure className='flex-1'>
-                <StaticImage src='../../images/interview/codeorjp/image.jpg' alt='' width={336} className='w-full mb-2' />
+                <StaticImage placeholder='none' src='../../images/interview/codeorjp/image.jpg' alt='' width={336} className='w-full mb-2' />
                 <figcaption className='text-center text-sm'>代表理事の利根川様(写真左)、CTOの田中様(写真右)</figcaption>
               </figure>
             </div>

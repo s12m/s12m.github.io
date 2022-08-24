@@ -43,7 +43,7 @@ const Header = () => {
     <header className='navbar fixed p-4 z-10'>
       <div className='container mx-auto max-w-6xl justify-between'>
         <Link to='/' className='bg-base-100/80 rounded-box shadow-md px-4 py-2'>
-          <StaticImage src='../images/logo/landscape.png' alt='' height={64} />
+          <StaticImage placeholder='none' src='../images/logo/landscape.png' alt='' height={64} />
         </Link>
         <div className='bg-base-100/80 rounded-box shadow-md p-4'>
           <label htmlFor='my-drawer' className='lg:hidden'>
@@ -72,7 +72,7 @@ const Footer = () => {
   return (
     <footer className='footer footer-center p-10 bg-base-200'>
       <div>
-        <StaticImage src='../images/logo/cube.png' alt='株式会社スマートアルゴリズム' width={48} height={48} />
+        <StaticImage placeholder='none' src='../images/logo/cube.png' alt='株式会社スマートアルゴリズム' width={48} height={48} />
         <p>&copy; 2022 Smart Algorithm Co., Ltd.</p>
       </div>
     </footer>

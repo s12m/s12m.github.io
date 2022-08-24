@@ -39,7 +39,7 @@ const Page = () => {
                 <InterviewAnswer interviewee='種村'>フロントをやっているけれどあまり知識がある訳ではない中で、いつもデザイナーにもわかる言葉で丁寧に説明していただいています。知識の幅の広さと深さがすごく、投げかけたことへのフィードバックが適切で、デザイナーもエンジニアもうまく仕事が回っているので大変助かっています。</InterviewAnswer>
               </div>
               <figure className='flex-1'>
-                <StaticImage src='../../images/interview/vook/image.jpg' alt='' width={336} className='w-full mb-2' />
+                <StaticImage placeholder='none' src='../../images/interview/vook/image.jpg' alt='' width={336} className='w-full mb-2' />
                 <figcaption className='text-center text-sm'>Webデザイナーの種村様(写真左)、取締役の阿部様(写真右)</figcaption>
               </figure>
             </div>

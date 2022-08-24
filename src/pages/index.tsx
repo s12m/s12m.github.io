@@ -27,7 +27,7 @@ const Page = () => {
       <div className='relative'>
         <section className='flex items-center justify-center h-screen bg-base-100 px-4 md:px-0'>
           <div className='text-center'>
-            <StaticImage src='../images/logo/portrait.png' alt='株式会社スマートアルゴリズム' height={256} />
+            <StaticImage placeholder='none' src='../images/logo/portrait.png' alt='株式会社スマートアルゴリズム' height={256} />
             <h1 className='text-2xl text-s12m-blue whitespace-nowrap'>情報科学でビジネスを前に進める</h1>
             <p className='py-6'>問題の本質を見抜き、ITの原理原則を理解した上で最適な解のために使いこなせる技術者こそ、<br />ビジネス課題の根本的かつ迅速な解決に必要です</p>
           </div>

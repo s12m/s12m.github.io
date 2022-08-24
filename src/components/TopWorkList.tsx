@@ -11,7 +11,7 @@ const TopWorkList = () => {
     <CardList>
       <Card>
         <Figure>
-          <StaticImage src='../images/work/agile.png' alt='' aspectRatio={16/9} />
+          <StaticImage placeholder='none' src='../images/work/agile.png' alt='' aspectRatio={16/9} />
           <FigureCaption>
             From Planbox (Own work) [CC BY-SA 3.0],
             <br />
@@ -31,7 +31,7 @@ const TopWorkList = () => {
       </Card>
       <Card>
         <Figure>
-          <StaticImage src='../images/work/devops.svg' alt='' aspectRatio={16/9} />
+          <StaticImage placeholder='none' src='../images/work/devops.svg' alt='' aspectRatio={16/9} />
           <FigureCaption>
             From Kharnagy (Own work) [CC BY-SA 4.0],
             <br />
@@ -51,7 +51,7 @@ const TopWorkList = () => {
       </Card>
       <Card>
         <Figure>
-          <StaticImage src='../images/work/mokichi.jpg' alt='' aspectRatio={16/9} />
+          <StaticImage placeholder='none' src='../images/work/mokichi.jpg' alt='' aspectRatio={16/9} />
           <FigureCaption>
             代表取締役　齋藤 和也
             <br />
