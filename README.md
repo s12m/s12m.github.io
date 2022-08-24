@@ -1,54 +1,43 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal TypeScript starter
-</h1>
+# 株式会社スマートアルゴリズム ホームページ
 
-## 🚀 Quick start
+![](./src/images/logo/landscape.png)
 
-1.  **Create a Gatsby site.**
+本リポジトリでは、株式会社スマートアルゴリズムのホームページを管理しています。
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+## 開発環境
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+本サイトは [Gatsby](https://www.gatsbyjs.com/) で作成されており、UIライブラリは [daisyUI](https://daisyui.com/) を使用しています。
 
-2.  **Start developing.**
+### 必要なもの
 
-    Navigate into your new site’s directory and start it up.
+- Node.js（バージョンは [.node-version](./.node-version) を参照）
+- お使いのエディタで使用できる [EditorConfig](https://editorconfig.org/) のプラグイン
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+### セットアップ
 
-3.  **Open the code and start customizing!**
+```
+npm install
+```
 
-    Your site is now running at http://localhost:8000!
+### 起動
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+```
+npm start
+```
 
-4.  **Learn more**
+http://localhost:8000
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+## デプロイ
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+GitHub Actions によって、 `main` ブランチへのコミットが自動デプロイされます。
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+## 本リポジトリに含まれるリソースについて
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+- ソースコードについては、MITライセンスのもとでご自由にお使いいただけます。
+- 画像については、原則として他でのご使用はご遠慮ください。
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+## 本サイトに関するお問い合わせ
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+本サイトについて気になったことがあれば、GitHub Issues にてご連絡ください。
 
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+※弊社の事業やシステム開発に関するご相談については、**GitHub Issues ではなく[ホームページ](https://smartalgorithm.co.jp)の「お問い合わせ」よりご連絡ください**。
