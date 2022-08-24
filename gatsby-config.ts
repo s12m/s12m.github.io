@@ -23,6 +23,11 @@ const config: GatsbyConfig = {
       'name': 'data',
       'path': './src/data/'
     },
+  }, {
+    resolve: 'gatsby-plugin-google-tagmanager',
+    options: {
+      id: 'GTM-526FPLG'
+    }
   }]
 }
 
