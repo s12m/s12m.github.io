@@ -38,7 +38,7 @@ const Page = () => {
       </div>
       <Divider />
       <Section>
-        <SectionHeader title='NEWS' />
+        <SectionHeader title='お知らせ' />
         <Container>
           <LatestNews />
           <div className='text-center mt-8'>
@@ -48,21 +48,21 @@ const Page = () => {
       </Section>
       <Divider />
       <Section>
-        <SectionHeader title='MEMBER' />
+        <SectionHeader title='メンバー' />
         <Container>
           <TopMemberList />
         </Container>
       </Section>
       <Divider />
       <Section>
-        <SectionHeader title='INTERVIEW' />
+        <SectionHeader title='お客様インタビュー' />
         <Container>
           <TopInterviewList />
         </Container>
       </Section>
       <Divider />
       <Section>
-        <SectionHeader title='WORK' />
+        <SectionHeader title='提供サービス' />
         <Container>
           <TopWorkList />
           <div className='text-center mt-8'>
@@ -72,7 +72,7 @@ const Page = () => {
       </Section>
       <Divider />
       <Section>
-        <SectionHeader title='TECHNOLOGY' />
+        <SectionHeader title='主な採用技術' />
         <Container>
           <TopTechnologyList />
           <div className='text-center mt-8'>
