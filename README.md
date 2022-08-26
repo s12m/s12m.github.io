@@ -40,4 +40,4 @@ GitHub Actions によって、 `main` ブランチへのコミットが自動デ
 
 本サイトについて気になったことがあれば、GitHub Issues にてご連絡ください。
 
-※弊社の事業やシステム開発に関するご相談については、**GitHub Issues ではなく[ホームページ](https://smartalgorithm.co.jp)の「お問い合わせ」よりご連絡ください**。
+※弊社の事業に関するお問い合わせやシステム開発に関するご相談については、**GitHub Issues ではなく[ホームページ](https://smartalgorithm.co.jp)の「お問い合わせ」よりご連絡ください**。

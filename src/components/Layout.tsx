@@ -4,6 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { ChevronDownIcon } from '@heroicons/react/outline'
 import Hamburger from 'hamburger-react'
 import InquiryLink from './InquiryLink'
+import ExternalLink from './ExternalLink'
 
 const Layout: React.FC<HasChildrenProps> = ({ children }) => {
   return (
@@ -60,7 +61,7 @@ const Header = () => {
                 <li><Link to='/interviews/codeorjp/'>NPO法人みんなのコード様</Link></li>
               </ul>
             </li>
-            <li><a href='mailto:contact@smartalgorithm.co.jp' className='bg-s12m-red text-s12m-gray font-bold'>お問い合わせ</a></li>
+            <li><InquiryLink>お問い合わせ</InquiryLink></li>
           </ul>
         </div>
       </div>
@@ -74,6 +75,7 @@ const Footer = () => {
       <div>
         <StaticImage placeholder='none' src='../images/logo/cube.png' alt='株式会社スマートアルゴリズム' width={48} height={48} />
         <p>&copy; 2022 Smart Algorithm Co., Ltd.</p>
+        <p>本サイトのソースコードを <ExternalLink href='https://github.com/s12m/s12m.github.io'>GitHubで公開</ExternalLink> しています</p>
       </div>
     </footer>
   )
