@@ -2,8 +2,8 @@ import type { GatsbyConfig } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: 'new',
-    siteUrl: 'https://www.yourdomain.tld'
+    title: '株式会社スマートアルゴリズム',
+    siteUrl: 'https://smartalgorithm.co.jp'
   },
   graphqlTypegen: true,
   plugins: ['gatsby-plugin-postcss', 'gatsby-plugin-image', 'gatsby-plugin-sitemap', {
