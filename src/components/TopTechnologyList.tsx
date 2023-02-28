@@ -11,7 +11,7 @@ const TopTechnologyList = () => {
       <i className='devicon-nodejs-plain-wordmark colored text-8xl'></i>
       <i className='devicon-typescript-plain colored text-8xl'></i>
       <i className='devicon-react-plain-wordmark colored text-8xl'></i>
-      <i className='devicon-vuejs-plain-wordmark colored text-8xl'></i>
+      <i className='devicon-nextjs-plain-wordmark colored text-8xl'></i>
       <i className='devicon-mysql-plain-wordmark colored text-8xl'></i>
       <i className='devicon-postgresql-plain-wordmark colored text-8xl'></i>
       <i className='devicon-redis-plain-wordmark colored text-6xl align-bottom'></i>
