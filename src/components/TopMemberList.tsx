@@ -5,7 +5,7 @@ const TopMemberList = () => {
   return (
     <div className='flex flex-col gap-4 w-full md:w-1/2 m-auto'>
       <StaticImage placeholder='none' src='../images/member/profile.jpg' alt='' width={192} className='w-1/3 mask mask-circle m-auto' />
-      <h3 className='text-center text-xl'>mokichi / 齋藤 和也<div className='text-sm'>（代表兼エンジニア）</div></h3>
+      <h3 className='text-center text-xl'>mokichi / 齋藤 和也<div className='text-xs'>（代表取締役 兼 エンジニア）</div></h3>
       <div className='flex gap-2 m-auto'>
         <a href='https://github.com/mokichi' target='_blank'><i className='devicon-github-original colored text-[32px]' /></a>
         <a href='https://qiita.com/mokichi' target='_blank'><StaticImage placeholder='none' src='../images/devicon/qiita.png' alt='' width={32} className='mask mask-circle' /></a>
