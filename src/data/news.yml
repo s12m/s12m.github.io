@@ -1,3 +1,8 @@
+- title: "「[Elixir] phx.gen.releaseで生成されたDockerfileで外向きのHTTPリクエストができなくて手こずった話」を投稿しました"
+  category: Qiita
+  url: https://qiita.com/mokichi/items/0c6fe12e9ad0c6e4ca7d
+  date: 2023-12-18
+
 - title: "「[Elixir] PhoenixアプリケーションをGoogle Cloudで本番運用する際のインフラ構成を考える」を投稿しました"
   category: Qiita
   url: https://qiita.com/mokichi/items/6615c10d556de83878b8
